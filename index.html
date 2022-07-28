@@ -219,9 +219,9 @@
 
         <!-- course categories end -->
         <!-- Ready to join part start  -->
-        <section class="container mb-5">
+        <section class="container mb-5 h-300 w-1320 ">
             <div class=" bg-primary mybutton row">
-                <div class="col-lg-10 d-flex align-item-center ps-5 mt-5  ">
+                <div class="col-lg-10 d-flex align-item-center ps-5 mt-5 mb-5  ">
                     <div class="text-white">
                         <h1>Ready to join?</h1>
                         <p> You really feel like there’s nothing you can’t learn, which in turn builds so much
@@ -231,8 +231,34 @@
                     </div>
                 </div>
                 <div class="col-lg-2 cols-sm-text-center mt-5 ">
-                    <a href=" "><button type="button" class="btn  bg-white text-primary fw-semibold">Register Now
-                        </button></a>
+                    <button type="button" class="btn text-primary fw-semibold bg-white mt-4 " data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register Now</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Register Now</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <form>
+                                <div class="mb-3">
+                                  <label for="recipient-name" class="col-form-label">Please Input Mail:</label>
+                                  <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="message-text" class="col-form-label">Password:</label>
+                                  <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Send message</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>   
+                    
                 </div>
             </div>
         </section>
@@ -391,8 +417,6 @@
 
     <!-- Footer section start  -->
     <footer class="text-center text-white" style="background-color: #f1f1f1;">
-
-        <!-- Grid container -->
         <div class="container pt-2">
             <!-- Author -->
             <div class="text-center text-dark p-3" style="background-color: #f1f1f1;">
@@ -401,7 +425,7 @@
  Sultanate of <br> Oman Privacy Ploicy | Terms of us</p>
             </div>
             <!-- Author -->
-            <!-- Section Social media -->
+            <!-- Section Social media start -->
             <section class="mb-2 mt-0">
                 <!-- Facebook -->
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
@@ -426,20 +450,16 @@
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
                     data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
             </section>
-            <!-- Section: Social media -->
+            <!-- Section: Social media end -->
         </div>
-        <!-- Grid container -->
+
 
         <!-- Copyright -->
         <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2023 Copyright:
-             Mr.Azit kumar Roy
+            © 2023 Copyright: Mr.Azit kumar Roy
         </div>
         <!-- Copyright -->
     </footer>
-
-
-
     <!-- Footer section end  -->
 
 
